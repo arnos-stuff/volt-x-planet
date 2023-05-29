@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "volt-x-climate"
+version = "0.1.0"
+description = "A small website rendered using nbdev to study Volt Europa's climate model"
+authors = ["arnos-stuff <bcda0276@gmail.com>"]
+readme = "README.md"
+packages = [{include = "volt_x_climate"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyterlab = "^4.0.0"
+jupyterlab-quarto = "^0.1.45"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

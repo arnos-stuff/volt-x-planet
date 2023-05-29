@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "volt-x-climate-web"
+  site-url: "https://arnos-stuff.github.io/volt-x-climate-web"
+  description: "A small website to study Volt Europa's climate modelling"
+  repo-branch: main
+  repo-url: "https://github.com/arnos-stuff/volt-x-climate-web"
